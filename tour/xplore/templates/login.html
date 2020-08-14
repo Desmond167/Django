@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<head>
+    <meta name="viewport" charset="utf-8" content="width= device-width , maximum-scale=1">
+    <title>xplore</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+
+<body>
+    <nav>
+        <div class="up">
+            <img class="img" src="{% static 'images\star.jpeg' %}"><a class="m" style="color:black" href="#login"><b>plore
+                    Stars</b></a>
+            <div class="ico">
+                <img src="{% static 'images\fb_ico.png' %}"><a style="color:black" href="#login">/sohamchakraborty777</a>
+                <img src="{% static 'images\insta_ico.png' %}"><a style="color:black" href="#login">/__desmond_miles__</a>
+            </div>
+        </div>
+        <ul>
+            <a style="color:white" class="down" href="#login">Home</a>
+            <a style="color:white" class="down" href="#login">About</a>
+            <a style="color:white" class="down" href="#login">Tour</a>
+            <a style="color:white" class="down" href="#login">Hotels</a>
+            <a style="color:white" class="down" href="#login">Blogs</a>
+            <a style="color:white" class="down" href="#login">Contact Us</a>
+            <input name="search" type="Search" placeholder="  Search..">
+        </ul>
+    </nav>
+    <div class="temp">
+        <img src="{% static 'images\maldives1.jpg' %}">
+
+        <h3><i>Maldives</i></h3>
+
+        <h5>Explore</h5>
+        <h1>The Islands</h1>
+        <p>Come with us and get lost in the blues</p>
+    </div>
+
+    <div class="case">
+        <div class="col1">
+            <img class="l" src="{% static 'images\maldives2.jpg' %}">
+            <div class="label">
+                <h3>Geography</h3>
+                <h5>The Maldives is a nation of islands in the Indian Ocean, that spans across the equator. The country
+                    is
+                    comprised of 1192 islands that stretch along a length of 871 kilometers. While the country cov...
+                </h5>
+            </div>
+            <img class="l" src="{% static 'images\maldives4.jpg' %}"><br>
+            <div class="label">
+                <h3>Culture</h3>
+                <h5>Although home to just over half a million people the Maldives has its own unique culture and
+                    traditions.
+                    While heavily influenced by various cultures around the rim of the Indian Ocean, the Maldivi...</h5>
+            </div><br>
+            <img class="l" src="{% static 'images\maldives3.jpg' %}">
+        </div>
+        <div class="col2">
+            <div class="label">
+                <h3>The Environment</h3>
+                <h5>The Maldives has one of the most delicate environments anywhere on the planet. Coral reefs are the
+                    foundation of the islands. They offer protection to the tiny islands as its natural defense
+                    system...
+                </h5>
+            </div>
+            <img class="r" src="{% static 'images\maldives5.jpg' %}"><br><br><br><br>
+            <div class="label">
+                <h3>Connectivity</h3>
+                <h5>The Maldives is well connected with the rest of the world. Several flights from Europe, Middle East
+                    and
+                    South East Asia operate to Velana International Airport, the main gateway to the Maldives. Th...
+                </h5>
+            </div>
+            <img class="r" src="{% static 'images\maldives6.jpg' %}"><br><br><br><br>
+            <div class="label">
+                <h3>People</h3>
+                <h5>While very little is known about the ancient history of the Maldives scholars and historians believe
+                    that the Maldives is an old nation populated well over 2500 years ago. The Maldivian race is the...
+                </h5>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+    <form method="post"  action="/register/">
+        <section class="frm">{% csrf_token %}
+            <br>
+            <span style="color: Black" for=uname>Username</span>
+            <br>
+            <input type="text" placeholder="Enter Your Username" name="user"><br>
+            <span style="color: Black" for=email>Email</span>
+            <br>
+            <input type="text" placeholder="Enter Your Email" name="mail"><br>
+            <span style="color: Black" for=location>Location</span>
+            <br>
+            <input type="text" placeholder="Enter Your Dream Locaton" name="loc"><br>
+            <span for="Submit"></span>
+            <br>
+        </section>
+            <input class="btn" type="Submit">
+    </form>
+    <div class="log">
+    <img class="img" src="{% static 'images\star.jpeg' %}"><a class="m" style="color:black" href="#login"><b>plore-Stars</b></a></div>
+    <div class="btm">
+        <p class="b">Become part of <b> Xplore Stars</b></p>
+        <br>
+        <h4 style="float: right;">Find us Here</h4>
+        <div class="ico">
+            <a style="color:black" href="#login"><img src="{% static 'images\fb_ico.png' %}"></a>
+            <a style="color:black" href="#login"><img src="{% static 'images\insta_ico.png' %}"></a>
+            <a style="color:black" href="#login"><img src="{% static 'images\twitter_ico.png' %}"></a>
+        </div>
+        <div class="c">
+            <ol class="a"><a href="#login">©Xplore Stars 2020</a><a href="#login">Privacy Policy</a><a
+                    href="#login">Booking Conditions</a><a href="#login">Xplore Stars Social Terms & Conditions</a></ol>
+        </div>
+    </div>
+</body>
+
+</html>

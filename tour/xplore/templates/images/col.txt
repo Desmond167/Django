@@ -1,0 +1,40 @@
+            <div class="case">
+                <img class="l" src="images/maldives2.jpg"><p>Romantic Scenery</p><h3>The Environment</h3><h5>The Maldives has one of the most delicate environments anywhere on the planet. Coral reefs are the foundation of the islands. They offer protection to the tiny islands as its natural defense system...</h5>
+                <img class="r" src="images/maldives5.jpg"><p>Beautiful Sunsets</p><h3>Geography</h3><h5>The Maldives is a nation of islands in the Indian Ocean, that spans across the equator. The country is comprised of 1192 islands that stretch along a length of 871 kilometers. While the country cov...</h5>
+                <img class="l" src="images/maldives4.jpg"><p>Relaxing Nature</p><h3>Connectivity</h3><h5>The Maldives is well connected with the rest of the world. Several flights from Europe, Middle East and South East Asia operate to Velana International Airport, the main gateway to the Maldives. Th...</h5>
+                <img class="r" src="images/maldives6.jpg"><p>New Experiences</p><h3>Culture</h3><h5>Although home to just over half a million people the Maldives has its own unique culture and traditions. While heavily influenced by various cultures around the rim of the Indian Ocean, the Maldivi...</h5>
+                <img class="l" src="images/maldives3.jpg"><p>Close To Nature</p><h3>People</h3><h5>While very little is known about the ancient history of the Maldives scholars and historians believe that the Maldives is an old nation populated well over 2500 years ago. The Maldivian race is the...</h5>
+            </div>
+
+
+
+
+
+
+
+.case .l {
+    text-align: left;
+}
+.case .l h3 {
+    text-align: right;
+    box-sizing: border-box;
+    margin: 0% 0% 0% 0%;
+}
+.case .l h5{
+    text-align: right;
+    box-sizing: border-box;
+    margin: 0% 0% 0% 0%;
+}
+.case .r {
+    text-align: end;
+}
+.case .r h3 {
+    text-align: left;
+    box-sizing: border-box;
+    margin: 0% 0% 0% 0%;
+}
+.case .r h5{
+    text-align: left;
+    box-sizing: border-box;
+    margin: 0% 0% 0% 0%;
+}
